@@ -62,9 +62,7 @@ while True:
                     server.login(msg['From'], senderPass)
                     server.sendmail(msg['From'], msg['To'], msg.as_string())
                     server.quit()
-                    
-                    #pass: bottaker101@gmail.com
-                    #pass: tookyobot
+                   
                     emailCounter += 1
                     print (emailCounter)
                     x += 1
